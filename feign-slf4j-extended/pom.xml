@@ -10,6 +10,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
+    <packaging>jar</packaging>
     <artifactId>feign-slf4j-extended</artifactId>
 
     <name>feign-extensions-slf4j-extended</name>
