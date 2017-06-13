@@ -1,5 +1,8 @@
 # Feign Extensions
 
+[![codecov](https://codecov.io/gh/lanwen/feign-extensions/branch/master/graph/badge.svg)](https://codecov.io/gh/lanwen/feign-extensions)
+[![Maven Central](https://img.shields.io/maven-central/v/ru.lanwen.feign/feign-extensions.svg)](https://maven-badges.herokuapp.com/maven-central/ru.lanwen.feign/feign-extensions)
+
 Some useful feign extensions
 
 ## Extended Slf4J
