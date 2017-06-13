@@ -10,7 +10,7 @@ import java.util.Date;
 import static java.time.temporal.ChronoUnit.SECONDS;
 
 /**
- * Throws RetryableException if status >= 500
+ * Throws RetryableException if status greater or equal to 500
  *
  * @author lanwen (Merkushev Kirill)
  */
