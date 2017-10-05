@@ -4,11 +4,6 @@ import feign.Response;
 import feign.RetryableException;
 import feign.codec.ErrorDecoder;
 
-import java.time.Instant;
-import java.util.Date;
-
-import static java.time.temporal.ChronoUnit.SECONDS;
-
 /**
  * Throws RetryableException if status greater or equal to 500
  *
@@ -23,7 +18,7 @@ public class RetryOn500ErrorDecoder extends ErrorDecoder.Default {
             return new RetryableException(
                     exception.getMessage(),
                     exception,
-                    Date.from(Instant.now().plus(1, SECONDS))
+                    null
             );
         }
         return exception;
